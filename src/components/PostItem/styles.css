@@ -1,0 +1,55 @@
+section.post-header {
+    display: flex;
+    align-items: center;
+}
+
+section.post-header .avatar img {
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+section.post-header .details {
+    display: flex;
+    flex-direction: column;
+}
+
+section.post-header .details small {
+    color: #969696;
+}
+
+section.post-comment .comment {
+    display: flex;
+    margin-top: 8px;
+}
+
+section.post-comment .comment img {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+
+section.post-comment .comment p {
+    line-height: 24px;
+    background-color: #EEEEEE;
+    padding: 16px;
+    border-radius: 16px;
+}
+
+.posts {
+    background-color: #FFF;
+    margin-top: 24px;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 1px 2px 2px 0px rgba(0,0,0,0.1);
+}
+
+.posts .content {
+    margin-top: 16px;
+}
+
+.posts hr {
+    margin: 24px 0;
+    border: 1px solid #EEEEEE;
+}
